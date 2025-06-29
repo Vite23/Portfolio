@@ -3,7 +3,7 @@
 
 Welcome to the GitHub repository of my personal portfolio website! This repository houses the codebase for the website that I've designed to showcase my skills, experiences, and projects.
 
-📄 Resume: https://drive.google.com/file/d/19hnaZPYc3ZoRHwv6BK7fST0wR4w_JFZt/view?usp=sharing
+📄 Resume: [https://drive.google.com/file/d/19hnaZPYc3ZoRHwv6BK7fST0wR4w_JFZt/view?usp=sharing](https://drive.google.com/file/d/1GW4ROnBobpf31mufQlURMXIlUcLJ5AY5/view?usp=sharing)
 
 
 
