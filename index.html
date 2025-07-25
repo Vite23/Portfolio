@@ -45,17 +45,32 @@
   </section>
 
   <section id="technologies">
-
+    <h2>Technologies</h2>
 
     <div id="technologies-grid">
-      <img src="img/c++.png" alt="C++">
-      <img src="img/html.png" alt="HTML">
-      <img src="img/css.jpeg" alt="CSS">
-      <img src="img/js.jpeg" alt="JavaScript">
-      <img src="img/react.png" alt="React">
+      <div class="tech-item">
+        <img src="img/c++.png" alt="C++">
+        <p>C++</p>
+      </div>
+      <div class="tech-item">
+        <img src="img/html.png" alt="HTML">
+        <p>HTML</p>
+      </div>
+      <div class="tech-item">
+        <img src="img/css.jpeg" alt="CSS">
+        <p>CSS</p>
+      </div>
+      <div class="tech-item">
+        <img src="img/js.jpeg" alt="JavaScript">
+        <p>JavaScript</p>
+      </div>
+      <div class="tech-item">
+      <img src="img/sql.png" alt="SQL">
+      <p>SQL</p>
     </div>
-
+    </div>
   </section>
+
 
   <section id="projects">
 
@@ -68,11 +83,6 @@
     <div class="project-cards">
 
       <div class="card">
-        <img src="img/currency-convt.png" alt="Currency Converter">
-        <h3>Currency Converter</h3>
-        <p>Real-time currency conversion using external API with a clean and responsive UI.</p>
-      </div>
-      <div class="card">
         <img src="img/Weather.png" alt="Weather Web App">
         <h3>Weather Web App</h3>
         <p>Shows current weather updates using OpenWeatherMap API and JavaScript.</p>
@@ -83,10 +93,14 @@
         <p>A static frontend recreation using HTML and CSS with responsive design.</p>
       </div>
       <div class="card">
+        <img src="img/currency-convt.png" alt="Currency Converter">
+        <h3>Currency Converter</h3>
+        <p>Real-time currency conversion using external API with a clean and responsive UI.</p>
+      </div>
+      <div class="card">
         <img src="img/portfolio.png" alt="Portfolio">
         <h3>Portfolio</h3>
-        <p>A personal portfolio website showcasing my skills and projects with a clean, responsive design.
-          #HTML #CSS #JavaScript</p>
+        <p>A personal portfolio website showcasing my skills and projects with a clean, responsive design.</p>
       </div>
     </div>
 
@@ -97,14 +111,23 @@
     <h3>Get in touch </h3>
     <h2>Contact</h2>
 
+
     <div class="contact-container">
-      <form>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="6b9e9895-b8ef-438e-9e8d-0dc631b231bd">
+
         <label>Your Name:</label>
-        <input type="text" placeholder="Enter your Name" required>
+        <input type="text" name="name" placeholder="Enter your Name" required>
+
         <label>Your Email:</label>
-        <input type="email" placeholder="Enter your Email" required>
+        <input type="email" name="email" placeholder="Enter your Email" required>
+
         <label>Your Message:</label>
-        <textarea rows="5" placeholder="Leave a Message" required></textarea>
+        <textarea name="message" rows="5" placeholder="Leave a Message" required></textarea>
+
+        <!-- Optional: redirect to thank-you page -->
+        <input type="hidden" name="redirect" value="thank-you.html">
+
         <button type="submit">Send</button>
       </form>
 
