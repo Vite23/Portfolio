@@ -7,7 +7,6 @@ Welcome to the GitHub repository of my personal portfolio website! This reposito
 
 
 
-
 ## 💻 Tech Stack
 
 This portfolio website is built using the following technology stack:
@@ -19,16 +18,13 @@ This portfolio website is built using the following technology stack:
 
 
 
-
 ## 🖼️ Sections
 
 The website includes the following sections:
 
 - Home: Name, social media handles, and a profile image
-- Resume: Option to download/view resume
 - Skills: Technologies and tools I use
 - Projects: Highlighted works and live demos
-
 
 
 
